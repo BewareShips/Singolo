@@ -18,19 +18,11 @@
     src: url("./assets/fonts/Lato-Regular.ttf")
 }
 
-
-
 *{
 	margin:0;
-	padding:0;
-	
+	padding:0;	
 }
 	
-	
-	body{
-		
-	}
-
 .feedback_container{
 	height: 648px;
 	width: 1020px;
@@ -61,7 +53,8 @@
 	line-height:30px;
 	justify-content: flex-start;
 	letter-spacing: -0.05px;
-/*	word-spacing: -0.3px;*/
+	text-align: justify;
+
 	
 }
 
@@ -103,7 +96,7 @@ footer{
     color: #ee8284;
     font-family: 'Lato-Regular';
     padding-left: 15px;
-	padding-top: 7px;
+    padding-top: 7px;
 }
 	
 .describe-input{
@@ -113,12 +106,12 @@ footer{
 }
 
 .contacts{
-	width: 300px;
-	float:right;
-	position: absolute;
-	top:199px;
-	left:680px;
-	color:#f0d0d1;
+   width: 300px;
+   float:right;
+   position: absolute;
+   top:199px;
+   left:680px;
+   color:#f0d0d1;
 }
 
 
@@ -127,7 +120,7 @@ footer{
     font-family: 'Lato-Black';
     margin-top: 15px;
     text-align: justify;
-     letter-spacing: 0.1px;
+    letter-spacing: 0.1px;
 }
 
 .contact-text {
@@ -142,9 +135,8 @@ footer{
 }
 
 
-.contacting-data{
-	
- font-family: 'Lato-Regular';
+.contacting-data{	
+    font-family: 'Lato-Regular';
     font-size: 12px;
     margin-top: 25px;
     word-spacing: -1px;
@@ -152,6 +144,33 @@ footer{
     letter-spacing: 0.04px;
     text-align: justify;
     
+}
+
+.contacts-form-input[type=submit] {
+    width: 300px;
+    margin: 0 auto;
+}
+
+.contacts-form-input::placeholder{
+    color: #f48c8f;
+}
+
+.contacts-form-input:focus {
+    outline: none;
+}
+
+.contacts-form-input{
+    font-size: 11px;
+	height: 38px;
+    border-radius: 5px;
+    background-color: #d6564f;
+    color: #f48c8f;
+    width: 603px;
+	padding-left: 16px;
+	position: absolute;
+	bottom: -40px;
+	left:155px;
+	text-align:center;
 }
 
 .contact-icon {
@@ -191,4 +210,5 @@ footer {
 
 .footer-socials-icon:hover {
     cursor: pointer;
+	
 }
